@@ -1,0 +1,380 @@
+{
+  "Date": "2026-11-05T17:06:11.5907215+00:00",
+  "Host": "Ubuntu 24.04.3 LTS",
+  "Architecture": "X64",
+  "Failures": 0,
+  "Results": [
+    {
+      "Name": "Host policy accepts Windows x64 build 19041\u002B",
+      "Passed": true
+    },
+    {
+      "Name": "Host policy rejects old x64 Windows",
+      "Passed": true
+    },
+    {
+      "Name": "Host policy rejects Windows 10 ARM64",
+      "Passed": true
+    },
+    {
+      "Name": "Windows 11 ARM64 is allowed only as experimental",
+      "Passed": true
+    },
+    {
+      "Name": "Host policy rejects x86",
+      "Passed": true
+    },
+    {
+      "Name": "Host policy rejects non-Windows",
+      "Passed": true
+    },
+    {
+      "Name": "Apple authorization defaults to blocked",
+      "Passed": true
+    },
+    {
+      "Name": "Authorization flag alone is insufficient",
+      "Passed": true
+    },
+    {
+      "Name": "Explicit authorization plus attestation is recorded",
+      "Passed": true
+    },
+    {
+      "Name": "Unlicensed SDK verification executes no external command",
+      "Passed": true
+    },
+    {
+      "Name": "Launch blocked when setup is not verified",
+      "Passed": true
+    },
+    {
+      "Name": "Launch blocked without SDK authorization even with stale ready state",
+      "Passed": true
+    },
+    {
+      "Name": "Launch command preserves paths with spaces and uses the managed Python",
+      "Passed": true
+    },
+    {
+      "Name": "Managed child environment contains explicit tools and clears Python overrides",
+      "Passed": true
+    },
+    {
+      "Name": "State is atomically saved and round trips",
+      "Passed": true
+    },
+    {
+      "Name": "Corrupt state fails instead of silently resetting",
+      "Passed": true
+    },
+    {
+      "Name": "Drive-root install path is rejected",
+      "Passed": true
+    },
+    {
+      "Name": "Path with spaces is retained",
+      "Passed": true
+    },
+    {
+      "Name": "PowerShell user strings are literal quoted",
+      "Passed": true
+    },
+    {
+      "Name": "Package plan uses the official winget source and explicit x64",
+      "Passed": true
+    },
+    {
+      "Name": "Package plan never bypasses hashes or triggers reboots",
+      "Passed": true
+    },
+    {
+      "Name": "Update plan targets each package rather than all user software",
+      "Passed": true
+    },
+    {
+      "Name": "Doctor parser respects optional checks",
+      "Passed": true
+    },
+    {
+      "Name": "Doctor parser catches required missing tool",
+      "Passed": true
+    },
+    {
+      "Name": "Doctor parser fails closed on invalid JSON",
+      "Passed": true
+    },
+    {
+      "Name": "Doctor parser fails closed on empty check list",
+      "Passed": true
+    },
+    {
+      "Name": "Doctor nonzero exit code cannot report success",
+      "Passed": true
+    },
+    {
+      "Name": "ZIP extracts a normal archive without changing source bytes",
+      "Passed": true
+    },
+    {
+      "Name": "ZIP rejects traversal",
+      "Passed": true
+    },
+    {
+      "Name": "ZIP rejects backslash traversal",
+      "Passed": true
+    },
+    {
+      "Name": "ZIP rejects absolute",
+      "Passed": true
+    },
+    {
+      "Name": "ZIP rejects drive path",
+      "Passed": true
+    },
+    {
+      "Name": "ZIP rejects alternate data stream",
+      "Passed": true
+    },
+    {
+      "Name": "ZIP rejects trailing dot",
+      "Passed": true
+    },
+    {
+      "Name": "ZIP rejects dot segment",
+      "Passed": true
+    },
+    {
+      "Name": "ZIP rejects symbolic links",
+      "Passed": true
+    },
+    {
+      "Name": "ZIP rejects duplicate files",
+      "Passed": true
+    },
+    {
+      "Name": "ZIP enforces unpacked size limit",
+      "Passed": true
+    },
+    {
+      "Name": "ZIP cancellation interrupts extraction",
+      "Passed": true
+    },
+    {
+      "Name": "Downloads reject plaintext HTTP",
+      "Passed": true
+    },
+    {
+      "Name": "SHA-256 mismatches are rejected without committing the download",
+      "Passed": true
+    },
+    {
+      "Name": "Verified cached downloads are reused",
+      "Passed": true
+    },
+    {
+      "Name": "Download reports bytes without Content-Length and leaves no partial file",
+      "Passed": true
+    },
+    {
+      "Name": "Download heartbeats show a connection waiting for response headers",
+      "Passed": true
+    },
+    {
+      "Name": "Download header timeout retries finitely and preserves an existing target",
+      "Passed": true
+    },
+    {
+      "Name": "A stalled response stream times out, logs retry and cleans partial bytes",
+      "Passed": true
+    },
+    {
+      "Name": "Slow but active downloads still obey the overall time limit",
+      "Passed": true
+    },
+    {
+      "Name": "Stop cancels downloading immediately without retrying",
+      "Passed": true
+    },
+    {
+      "Name": "Truncated downloads are not activated",
+      "Passed": true
+    },
+    {
+      "Name": "Update checker loads default branch HEAD without downloading code",
+      "Passed": true
+    },
+    {
+      "Name": "Update checker rejects invalid commit IDs",
+      "Passed": true
+    },
+    {
+      "Name": "Repository download is pinned and repair preserves builder settings",
+      "Passed": true
+    },
+    {
+      "Name": "New-commit updates preserve active builder selections and custom config",
+      "Passed": true
+    },
+    {
+      "Name": "Repository cache regression: reuse",
+      "Passed": true
+    },
+    {
+      "Name": "Repository cache regression: legacy",
+      "Passed": true
+    },
+    {
+      "Name": "Repository cache regression: missing-cache",
+      "Passed": true
+    },
+    {
+      "Name": "Repository cache regression: repair-extra-source",
+      "Passed": true
+    },
+    {
+      "Name": "Repository cache regression: bad-cache",
+      "Passed": true
+    },
+    {
+      "Name": "Repository cache regression: bad-manifest",
+      "Passed": true
+    },
+    {
+      "Name": "Repository cache regression: restore-missing-checkout",
+      "Passed": true
+    },
+    {
+      "Name": "Repository extraction reports file and byte counts",
+      "Passed": true
+    },
+    {
+      "Name": "Cancelled repository extraction retains the previous checkout and removes staging",
+      "Passed": true
+    },
+    {
+      "Name": "Repository with changed upstream layout is not activated",
+      "Passed": true
+    },
+    {
+      "Name": "Process runner preserves argument boundaries and shell metacharacters",
+      "Passed": true
+    },
+    {
+      "Name": "Process runner cancellation stops the child process",
+      "Passed": true
+    },
+    {
+      "Name": "Process runner timeouts fail explicitly",
+      "Passed": true
+    },
+    {
+      "Name": "Metal package detection accepts only complete official-style package names",
+      "Passed": true
+    },
+    {
+      "Name": "Metal package lookup chooses the latest completed download",
+      "Passed": true
+    },
+    {
+      "Name": "Metal tool root requires both compiler and library linker",
+      "Passed": true
+    },
+    {
+      "Name": "Metal tool lookup resolves nested extracted tool roots automatically",
+      "Passed": true
+    },
+    {
+      "Name": "SDK lookup restores an extracted SDK path without a folder picker",
+      "Passed": true
+    },
+    {
+      "Name": "Metal ZIP preparation remains blocked until applicable terms are confirmed",
+      "Passed": true
+    },
+    {
+      "Name": "Authorized Metal ZIP is extracted, signature checked and configured automatically",
+      "Passed": true
+    },
+    {
+      "Name": "A Metal ZIP with rejected signatures is never activated or rediscovered",
+      "Passed": true
+    },
+    {
+      "Name": "A repository or other existing folder is not accepted as an iOS SDK",
+      "Passed": true
+    },
+    {
+      "Name": "SDK validation requires Foundation and UIKit headers",
+      "Passed": true
+    },
+    {
+      "Name": "SDK validation requires iOS 26 or later",
+      "Passed": true
+    },
+    {
+      "Name": "SDK validation rejects malformed SDK metadata",
+      "Passed": true
+    },
+    {
+      "Name": "A mistaken repository-root SDK selection is repaired automatically",
+      "Passed": true
+    },
+    {
+      "Name": "An interrupted legacy SDK extraction is never reused",
+      "Passed": true
+    },
+    {
+      "Name": "New SDK staging directories are never detected as an installed SDK",
+      "Passed": true
+    },
+    {
+      "Name": "SDK extraction is blocked without applicable Apple authorization",
+      "Passed": true
+    },
+    {
+      "Name": "SDK activation transaction: success",
+      "Passed": true
+    },
+    {
+      "Name": "SDK activation transaction: child-failure",
+      "Passed": true
+    },
+    {
+      "Name": "SDK activation transaction: incomplete",
+      "Passed": true
+    },
+    {
+      "Name": "SDK activation transaction: cancel",
+      "Passed": true
+    },
+    {
+      "Name": "Managed browser accepts quoted paths with spaces",
+      "Passed": true
+    },
+    {
+      "Name": "Managed browser lists folders and completed XIP files only",
+      "Passed": true
+    },
+    {
+      "Name": "Managed browser reports missing paths without unsafe shell commands",
+      "Passed": true
+    },
+    {
+      "Name": "Managed browser cancellation is honored",
+      "Passed": true
+    },
+    {
+      "Name": "Managed browser rejects blank and network paths",
+      "Passed": true
+    },
+    {
+      "Name": "Real child-process SDK extraction with the embedded adapter and synthetic XIP",
+      "Passed": true
+    },
+    {
+      "Name": "LIVE GitHub latest-commit lookup and real pinned archive extraction",
+      "Passed": true
+    }
+  ]
+}

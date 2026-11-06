@@ -1,0 +1,113 @@
+PASS  Host policy accepts Windows x64 build 19041+
+PASS  Host policy rejects old x64 Windows
+PASS  Host policy rejects Windows 10 ARM64
+PASS  Windows 11 ARM64 is allowed only as experimental
+PASS  Host policy rejects x86
+PASS  Host policy rejects non-Windows
+PASS  Apple authorization defaults to blocked
+PASS  Authorization flag alone is insufficient
+PASS  Explicit authorization plus attestation is recorded
+PASS  Unlicensed SDK verification executes no external command
+PASS  Launch blocked when setup is not verified
+PASS  Launch blocked without SDK authorization even with stale ready state
+PASS  Launch command preserves paths with spaces and uses the managed Python
+PASS  Managed child environment contains explicit tools and clears Python overrides
+PASS  State is atomically saved and round trips
+PASS  Corrupt state fails instead of silently resetting
+PASS  Drive-root install path is rejected
+PASS  Path with spaces is retained
+PASS  PowerShell user strings are literal quoted
+PASS  Package plan uses the official winget source and explicit x64
+PASS  Package plan never bypasses hashes or triggers reboots
+PASS  Update plan targets each package rather than all user software
+PASS  Doctor parser respects optional checks
+PASS  Doctor parser catches required missing tool
+PASS  Doctor parser fails closed on invalid JSON
+PASS  Doctor parser fails closed on empty check list
+PASS  Doctor nonzero exit code cannot report success
+PASS  ZIP extracts a normal archive without changing source bytes
+PASS  ZIP rejects traversal
+PASS  ZIP rejects backslash traversal
+PASS  ZIP rejects absolute
+PASS  ZIP rejects drive path
+PASS  ZIP rejects alternate data stream
+PASS  ZIP rejects trailing dot
+PASS  ZIP rejects dot segment
+PASS  ZIP rejects symbolic links
+PASS  ZIP rejects duplicate files
+PASS  ZIP enforces unpacked size limit
+PASS  ZIP cancellation interrupts extraction
+PASS  Downloads reject plaintext HTTP
+PASS  SHA-256 mismatches are rejected without committing the download
+PASS  Verified cached downloads are reused
+PASS  Download reports bytes without Content-Length and leaves no partial file
+PASS  Download heartbeats show a connection waiting for response headers
+PASS  Download header timeout retries finitely and preserves an existing target
+PASS  A stalled response stream times out, logs retry and cleans partial bytes
+PASS  Slow but active downloads still obey the overall time limit
+PASS  Stop cancels downloading immediately without retrying
+PASS  Truncated downloads are not activated
+PASS  Update checker loads default branch HEAD without downloading code
+PASS  Update checker rejects invalid commit IDs
+PASS  Repository download is pinned and repair preserves builder settings
+PASS  New-commit updates preserve active builder selections and custom config
+PASS  Repository cache regression: reuse
+PASS  Repository cache regression: legacy
+PASS  Repository cache regression: missing-cache
+PASS  Repository cache regression: repair-extra-source
+PASS  Repository cache regression: bad-cache
+PASS  Repository cache regression: bad-manifest
+PASS  Repository cache regression: restore-missing-checkout
+PASS  Repository extraction reports file and byte counts
+PASS  Cancelled repository extraction retains the previous checkout and removes staging
+PASS  Repository with changed upstream layout is not activated
+PASS  Process runner preserves argument boundaries and shell metacharacters
+PASS  Process runner cancellation stops the child process
+PASS  Process runner timeouts fail explicitly
+PASS  Metal package detection accepts only complete official-style package names
+PASS  Metal package lookup chooses the latest completed download
+PASS  Metal tool root requires both compiler and library linker
+PASS  Metal tool lookup resolves nested extracted tool roots automatically
+PASS  SDK lookup restores an extracted SDK path without a folder picker
+PASS  Metal ZIP preparation remains blocked until applicable terms are confirmed
+PASS  Authorized Metal ZIP is extracted, signature checked and configured automatically
+PASS  A Metal ZIP with rejected signatures is never activated or rediscovered
+PASS  A repository or other existing folder is not accepted as an iOS SDK
+PASS  SDK validation requires Foundation and UIKit headers
+PASS  SDK validation requires iOS 26 or later
+PASS  SDK validation rejects malformed SDK metadata
+PASS  A mistaken repository-root SDK selection is repaired automatically
+PASS  An interrupted legacy SDK extraction is never reused
+PASS  New SDK staging directories are never detected as an installed SDK
+PASS  SDK extraction is blocked without applicable Apple authorization
+PASS  SDK activation transaction: success
+PASS  SDK activation transaction: child-failure
+PASS  SDK activation transaction: incomplete
+PASS  SDK activation transaction: cancel
+PASS  Managed browser accepts quoted paths with spaces
+PASS  Managed browser lists folders and completed XIP files only
+PASS  Managed browser reports missing paths without unsafe shell commands
+PASS  Managed browser cancellation is honored
+PASS  Managed browser rejects blank and network paths
+Extracting Xcode XIP with long-path support; SDK staging: /tmp/nxw-tests-d1d3a87501ee4507a413fcd7f7d22339/SDK integration xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/sdk/.extract-17d5e5a2
+SDK path I/O probe passed (non-Windows test host)
+xip: Content 0.0 GB (application/octet-stream); writing the iPhoneOS SDK to /tmp/nxw-tests-d1d3a87501ee4507a413fcd7f7d22339/SDK integration xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/sdk/.extract-17d5e5a2
+  pass 1: 1 SDK files are hard links whose bytes another entry carries
+done in 0 s: 4 files; SDK folders: iPhoneOS.sdk
+set it with: NXW_IOS_SDK=/tmp/nxw-tests-d1d3a87501ee4507a413fcd7f7d22339/SDK integration xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/sdk/.extract-17d5e5a2/iPhoneOS.sdk  (or "ios_sdk" in win/toolchain.json)
+SDK validation passed: 7 files; 1 hard links resolved
+SDK extracted and validated: /tmp/nxw-tests-d1d3a87501ee4507a413fcd7f7d22339/SDK integration xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/sdk/iPhoneOS.sdk
+PASS  Real child-process SDK extraction with the embedded adapter and synthetic XIP
+GitHub branch main; pinned commit 269d61ff974b2e8e073d7357466ae130c3f6812f
+Downloading the pinned GitHub archive. Bytes and connection status will appear here every 5 seconds.
+Connecting to codeload.github.com · 0.0 MiB · total size not provided · 0s · attempt 1
+Connecting to codeload.github.com · 0.0 MiB · total size not provided · 5s · attempt 1
+Downloading · 54.1 MiB / 77.3 MiB · 10s · attempt 1
+Download complete; validating · 77.3 MiB / 77.3 MiB · 11s · attempt 1
+Download finished. Checking archive layout and source checksums…
+Extracting repository into a temporary folder. Your previous checkout remains in place.
+Extraction complete. Activating the verified repository…
+Repository ready · 269d61ff
+LIVE COMMIT 269d61ff974b2e8e073d7357466ae130c3f6812f
+PASS  LIVE GitHub latest-commit lookup and real pinned archive extraction
+93/93 passed. 0 failed.

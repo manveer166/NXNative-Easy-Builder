@@ -1,0 +1,80 @@
+test_missing_hard_link_carrier_fails (test_sdk_extract.SdkRegression.test_missing_hard_link_carrier_fails) ... ok
+test_old_sdk_is_rejected (test_sdk_extract.SdkRegression.test_old_sdk_is_rejected) ... /workspace/scratch/010afd202e14/NXNativeWindows-Easy-Installer/tests/Fixtures/upstream_extract_xip.py:183: ResourceWarning: unclosed file <_io.BufferedReader name='/tmp/nxw-sdk-test-1ivv61q1/setup-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/work-yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy/iPhoneOS.sdk/SDKSettings.json'>
+  bad = [p for p in out.rglob('*') if p.is_file() and p.stat().st_size >= len(CANARY) and is_canary(p.open('rb').read(64), p.stat().st_size)]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/workspace/scratch/010afd202e14/NXNativeWindows-Easy-Installer/tests/Fixtures/upstream_extract_xip.py:183: ResourceWarning: unclosed file <_io.BufferedReader name='/tmp/nxw-sdk-test-1ivv61q1/setup-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/work-yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy/iPhoneOS.sdk/System/Cryptexes/OS/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAccountAuthenticationModificationReplacePasswordWithSignInWithAppleRequest.h'>
+  bad = [p for p in out.rglob('*') if p.is_file() and p.stat().st_size >= len(CANARY) and is_canary(p.open('rb').read(64), p.stat().st_size)]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/workspace/scratch/010afd202e14/NXNativeWindows-Easy-Installer/tests/Fixtures/upstream_extract_xip.py:183: ResourceWarning: unclosed file <_io.BufferedReader name='/tmp/nxw-sdk-test-1ivv61q1/setup-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/work-yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy/iPhoneOS.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAccountAuthenticationModificationReplacePasswordWithSignInWithAppleRequest.h'>
+  bad = [p for p in out.rglob('*') if p.is_file() and p.stat().st_size >= len(CANARY) and is_canary(p.open('rb').read(64), p.stat().st_size)]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/workspace/scratch/010afd202e14/NXNativeWindows-Easy-Installer/tests/Fixtures/upstream_extract_xip.py:183: ResourceWarning: unclosed file <_io.BufferedReader name='/tmp/nxw-sdk-test-1ivv61q1/setup-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/work-yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy/iPhoneOS.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h'>
+  bad = [p for p in out.rglob('*') if p.is_file() and p.stat().st_size >= len(CANARY) and is_canary(p.open('rb').read(64), p.stat().st_size)]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/workspace/scratch/010afd202e14/NXNativeWindows-Easy-Installer/tests/Fixtures/upstream_extract_xip.py:183: ResourceWarning: unclosed file <_io.BufferedReader name='/tmp/nxw-sdk-test-1ivv61q1/setup-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/work-yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy/iPhoneOS.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h'>
+  bad = [p for p in out.rglob('*') if p.is_file() and p.stat().st_size >= len(CANARY) and is_canary(p.open('rb').read(64), p.stat().st_size)]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/workspace/scratch/010afd202e14/NXNativeWindows-Easy-Installer/tests/Fixtures/upstream_extract_xip.py:183: ResourceWarning: unclosed file <_io.BufferedReader name='/tmp/nxw-sdk-test-1ivv61q1/setup-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/work-yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy/iPhoneOS.sdk/System/Library/Frameworks/Foundation.framework/Versions/Current/Headers/Foundation.h'>
+  bad = [p for p in out.rglob('*') if p.is_file() and p.stat().st_size >= len(CANARY) and is_canary(p.open('rb').read(64), p.stat().st_size)]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/workspace/scratch/010afd202e14/NXNativeWindows-Easy-Installer/tests/Fixtures/upstream_extract_xip.py:183: ResourceWarning: unclosed file <_io.BufferedReader name='/tmp/nxw-sdk-test-1ivv61q1/setup-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/work-yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy/iPhoneOS.sdk/System/Library/Frameworks/Foundation.framework/Versions/A/Headers/Foundation.h'>
+  bad = [p for p in out.rglob('*') if p.is_file() and p.stat().st_size >= len(CANARY) and is_canary(p.open('rb').read(64), p.stat().st_size)]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_real_windows_extended_length_write_and_cleanup (test_sdk_extract.SdkRegression.test_real_windows_extended_length_write_and_cleanup) ... skipped 'Real Win32 filesystem I/O requires Windows'
+test_reported_long_header_and_canary_hard_link (test_sdk_extract.SdkRegression.test_reported_long_header_and_canary_hard_link) ... /workspace/scratch/010afd202e14/NXNativeWindows-Easy-Installer/tests/Fixtures/upstream_extract_xip.py:183: ResourceWarning: unclosed file <_io.BufferedReader name='/tmp/nxw-sdk-test-dfncve1y/setup-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/work-yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy/iPhoneOS.sdk/SDKSettings.json'>
+  bad = [p for p in out.rglob('*') if p.is_file() and p.stat().st_size >= len(CANARY) and is_canary(p.open('rb').read(64), p.stat().st_size)]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/workspace/scratch/010afd202e14/NXNativeWindows-Easy-Installer/tests/Fixtures/upstream_extract_xip.py:183: ResourceWarning: unclosed file <_io.BufferedReader name='/tmp/nxw-sdk-test-dfncve1y/setup-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/work-yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy/iPhoneOS.sdk/System/Cryptexes/OS/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAccountAuthenticationModificationReplacePasswordWithSignInWithAppleRequest.h'>
+  bad = [p for p in out.rglob('*') if p.is_file() and p.stat().st_size >= len(CANARY) and is_canary(p.open('rb').read(64), p.stat().st_size)]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/workspace/scratch/010afd202e14/NXNativeWindows-Easy-Installer/tests/Fixtures/upstream_extract_xip.py:183: ResourceWarning: unclosed file <_io.BufferedReader name='/tmp/nxw-sdk-test-dfncve1y/setup-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/work-yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy/iPhoneOS.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAccountAuthenticationModificationReplacePasswordWithSignInWithAppleRequest.h'>
+  bad = [p for p in out.rglob('*') if p.is_file() and p.stat().st_size >= len(CANARY) and is_canary(p.open('rb').read(64), p.stat().st_size)]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/workspace/scratch/010afd202e14/NXNativeWindows-Easy-Installer/tests/Fixtures/upstream_extract_xip.py:183: ResourceWarning: unclosed file <_io.BufferedReader name='/tmp/nxw-sdk-test-dfncve1y/setup-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/work-yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy/iPhoneOS.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h'>
+  bad = [p for p in out.rglob('*') if p.is_file() and p.stat().st_size >= len(CANARY) and is_canary(p.open('rb').read(64), p.stat().st_size)]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/workspace/scratch/010afd202e14/NXNativeWindows-Easy-Installer/tests/Fixtures/upstream_extract_xip.py:183: ResourceWarning: unclosed file <_io.BufferedReader name='/tmp/nxw-sdk-test-dfncve1y/setup-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/work-yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy/iPhoneOS.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h'>
+  bad = [p for p in out.rglob('*') if p.is_file() and p.stat().st_size >= len(CANARY) and is_canary(p.open('rb').read(64), p.stat().st_size)]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/workspace/scratch/010afd202e14/NXNativeWindows-Easy-Installer/tests/Fixtures/upstream_extract_xip.py:183: ResourceWarning: unclosed file <_io.BufferedReader name='/tmp/nxw-sdk-test-dfncve1y/setup-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/work-yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy/iPhoneOS.sdk/System/Library/Frameworks/Foundation.framework/Versions/Current/Headers/Foundation.h'>
+  bad = [p for p in out.rglob('*') if p.is_file() and p.stat().st_size >= len(CANARY) and is_canary(p.open('rb').read(64), p.stat().st_size)]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/workspace/scratch/010afd202e14/NXNativeWindows-Easy-Installer/tests/Fixtures/upstream_extract_xip.py:183: ResourceWarning: unclosed file <_io.BufferedReader name='/tmp/nxw-sdk-test-dfncve1y/setup-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/work-yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy/iPhoneOS.sdk/System/Library/Frameworks/Foundation.framework/Versions/A/Headers/Foundation.h'>
+  bad = [p for p in out.rglob('*') if p.is_file() and p.stat().st_size >= len(CANARY) and is_canary(p.open('rb').read(64), p.stat().st_size)]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_sdk_archive_traversal_fails (test_sdk_extract.SdkRegression.test_sdk_archive_traversal_fails) ... ok
+test_symlink_cannot_copy_outside_output (test_sdk_extract.SdkRegression.test_symlink_cannot_copy_outside_output) ...   SDK link outside output skipped: iPhoneOS.sdk/link
+ok
+test_unresolved_canary_is_rejected_after_extraction (test_sdk_extract.SdkRegression.test_unresolved_canary_is_rejected_after_extraction) ... /workspace/scratch/010afd202e14/NXNativeWindows-Easy-Installer/tests/Fixtures/upstream_extract_xip.py:183: ResourceWarning: unclosed file <_io.BufferedReader name='/tmp/nxw-sdk-test-3fis0lcu/setup-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/work-yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy/iPhoneOS.sdk/SDKSettings.json'>
+  bad = [p for p in out.rglob('*') if p.is_file() and p.stat().st_size >= len(CANARY) and is_canary(p.open('rb').read(64), p.stat().st_size)]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/workspace/scratch/010afd202e14/NXNativeWindows-Easy-Installer/tests/Fixtures/upstream_extract_xip.py:183: ResourceWarning: unclosed file <_io.BufferedReader name='/tmp/nxw-sdk-test-3fis0lcu/setup-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/work-yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy/iPhoneOS.sdk/System/Cryptexes/OS/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAccountAuthenticationModificationReplacePasswordWithSignInWithAppleRequest.h'>
+  bad = [p for p in out.rglob('*') if p.is_file() and p.stat().st_size >= len(CANARY) and is_canary(p.open('rb').read(64), p.stat().st_size)]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/workspace/scratch/010afd202e14/NXNativeWindows-Easy-Installer/tests/Fixtures/upstream_extract_xip.py:183: ResourceWarning: unclosed file <_io.BufferedReader name='/tmp/nxw-sdk-test-3fis0lcu/setup-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/work-yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy/iPhoneOS.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/ASAccountAuthenticationModificationReplacePasswordWithSignInWithAppleRequest.h'>
+  bad = [p for p in out.rglob('*') if p.is_file() and p.stat().st_size >= len(CANARY) and is_canary(p.open('rb').read(64), p.stat().st_size)]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/workspace/scratch/010afd202e14/NXNativeWindows-Easy-Installer/tests/Fixtures/upstream_extract_xip.py:183: ResourceWarning: unclosed file <_io.BufferedReader name='/tmp/nxw-sdk-test-3fis0lcu/setup-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/work-yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy/iPhoneOS.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h'>
+  bad = [p for p in out.rglob('*') if p.is_file() and p.stat().st_size >= len(CANARY) and is_canary(p.open('rb').read(64), p.stat().st_size)]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/workspace/scratch/010afd202e14/NXNativeWindows-Easy-Installer/tests/Fixtures/upstream_extract_xip.py:183: ResourceWarning: unclosed file <_io.BufferedReader name='/tmp/nxw-sdk-test-3fis0lcu/setup-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/work-yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy/iPhoneOS.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h'>
+  bad = [p for p in out.rglob('*') if p.is_file() and p.stat().st_size >= len(CANARY) and is_canary(p.open('rb').read(64), p.stat().st_size)]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/workspace/scratch/010afd202e14/NXNativeWindows-Easy-Installer/tests/Fixtures/upstream_extract_xip.py:183: ResourceWarning: unclosed file <_io.BufferedReader name='/tmp/nxw-sdk-test-3fis0lcu/setup-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/work-yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy/iPhoneOS.sdk/System/Library/Frameworks/Foundation.framework/Versions/Current/Headers/Foundation.h'>
+  bad = [p for p in out.rglob('*') if p.is_file() and p.stat().st_size >= len(CANARY) and is_canary(p.open('rb').read(64), p.stat().st_size)]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/workspace/scratch/010afd202e14/NXNativeWindows-Easy-Installer/tests/Fixtures/upstream_extract_xip.py:183: ResourceWarning: unclosed file <_io.BufferedReader name='/tmp/nxw-sdk-test-3fis0lcu/setup-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/work-yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy/iPhoneOS.sdk/System/Library/Frameworks/Foundation.framework/Versions/A/Headers/Foundation.h'>
+  bad = [p for p in out.rglob('*') if p.is_file() and p.stat().st_size >= len(CANARY) and is_canary(p.open('rb').read(64), p.stat().st_size)]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_windows_device_path_is_rejected (test_sdk_extract.SdkRegression.test_windows_device_path_is_rejected) ... ok
+test_windows_existing_prefix_is_not_duplicated (test_sdk_extract.SdkRegression.test_windows_existing_prefix_is_not_duplicated) ... ok
+test_windows_prefix_normalizes_relative_link_segments (test_sdk_extract.SdkRegression.test_windows_prefix_normalizes_relative_link_segments) ... ok
+test_windows_unc_prefix_and_slash_normalization (test_sdk_extract.SdkRegression.test_windows_unc_prefix_and_slash_normalization) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.306s
+
+OK (skipped=1)

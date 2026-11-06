@@ -1,0 +1,11 @@
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  NXInstaller.Core -> /workspace/scratch/010afd202e14/NXNativeWindows-Easy-Installer/src/NXInstaller.Core/bin/Release/net10.0/NXInstaller.Core.dll
+  NXInstaller.App -> /workspace/scratch/010afd202e14/NXNativeWindows-Easy-Installer/src/NXInstaller.App/bin/Release/net10.0/NXNativeWindowsEasyInstaller.dll
+  NXInstaller.UiTests -> /workspace/scratch/010afd202e14/NXNativeWindows-Easy-Installer/tests/NXInstaller.UiTests/bin/Release/net10.0/NXInstaller.UiTests.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:28.70

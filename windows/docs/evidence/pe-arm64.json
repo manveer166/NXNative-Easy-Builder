@@ -1,0 +1,12 @@
+{
+  "file": "NXNativeWindowsEasyInstaller-v2.0.2-win-arm64.exe",
+  "architecture": "arm64",
+  "pe_machine": "0xaa64",
+  "format": "PE32+",
+  "subsystem": "Windows GUI",
+  "size_bytes": 47016235,
+  "sha256": "bbc039474be89af85f4a1ea6021e7c42ac57f109018238c45de955a74407ef70",
+  "authenticode_certificate_present": false,
+  "result": "PASS (static header inspection only)",
+  "runtime_execution_tested": false
+}

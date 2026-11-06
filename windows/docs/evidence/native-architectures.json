@@ -1,0 +1,50 @@
+[
+  {
+    "File": "av_libglesv2.dll",
+    "Package": "Avalonia.Angle.Windows.Natives/2.1.25547.20250602",
+    "Architecture": "x64",
+    "Machine": "0x8664",
+    "Sha256": "9b203e40323b49dad29546a52b8b67d200bba8ff4cab9709a79cede23ba847d4",
+    "Result": "PASS: PE architecture only; runtime not executed"
+  },
+  {
+    "File": "av_libglesv2.dll",
+    "Package": "Avalonia.Angle.Windows.Natives/2.1.25547.20250602",
+    "Architecture": "arm64",
+    "Machine": "0xaa64",
+    "Sha256": "e1e7a9e9b4429739624fac5deb5fa11124b91b24819f941b0ab3652b305286ff",
+    "Result": "PASS: PE architecture only; runtime not executed"
+  },
+  {
+    "File": "libHarfBuzzSharp.dll",
+    "Package": "HarfBuzzSharp.NativeAssets.Win32/8.3.1.1",
+    "Architecture": "x64",
+    "Machine": "0x8664",
+    "Sha256": "eb76238c9e8e41d44b5a5b18167c4c5b39ca5db4277af5dbe92d730f0fc14a7d",
+    "Result": "PASS: PE architecture only; runtime not executed"
+  },
+  {
+    "File": "libHarfBuzzSharp.dll",
+    "Package": "HarfBuzzSharp.NativeAssets.Win32/8.3.1.1",
+    "Architecture": "arm64",
+    "Machine": "0xaa64",
+    "Sha256": "08bb823d84f12f1c54166c643ab6881601b8f0d6037c05a92345c53a52f7a7a5",
+    "Result": "PASS: PE architecture only; runtime not executed"
+  },
+  {
+    "File": "libSkiaSharp.dll",
+    "Package": "SkiaSharp.NativeAssets.Win32/2.88.9",
+    "Architecture": "x64",
+    "Machine": "0x8664",
+    "Sha256": "9a0d95e8caaa852c70d085af6a40a744242172ad9ea3fd6bc7599875a8a1dbcd",
+    "Result": "PASS: PE architecture only; runtime not executed"
+  },
+  {
+    "File": "libSkiaSharp.dll",
+    "Package": "SkiaSharp.NativeAssets.Win32/2.88.9",
+    "Architecture": "arm64",
+    "Machine": "0xaa64",
+    "Sha256": "3e6a5a4ceb45d0e1003f070ae66e2b92e8cc6d5b8fd6e7fc890109f121bac46b",
+    "Result": "PASS: PE architecture only; runtime not executed"
+  }
+]

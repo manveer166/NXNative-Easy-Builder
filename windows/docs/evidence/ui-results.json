@@ -1,0 +1,106 @@
+{
+  "Engine": "Actual Avalonia \u002B Skia production controls, headless platform",
+  "GeneratedAt": "2026-11-05T17:07:01.4052311+00:00",
+  "Failures": 0,
+  "Results": [
+    {
+      "Case": "main-1180x900",
+      "LogHeight": 317,
+      "Issues": []
+    },
+    {
+      "Case": "main-960x720",
+      "LogHeight": 220,
+      "Issues": []
+    },
+    {
+      "Case": "main-760x600",
+      "LogHeight": 180,
+      "Issues": []
+    },
+    {
+      "Case": "main-600x520",
+      "LogHeight": 180,
+      "Issues": []
+    },
+    {
+      "Case": "main-520x500",
+      "LogHeight": 180,
+      "Issues": []
+    },
+    {
+      "Case": "main-1180x650",
+      "LogHeight": 207,
+      "Issues": []
+    },
+    {
+      "Case": "density-1.25",
+      "LogicalSize": "880, 720",
+      "Issues": []
+    },
+    {
+      "Case": "density-1.5",
+      "LogicalSize": "733.3333333333334, 600",
+      "Issues": []
+    },
+    {
+      "Case": "density-2",
+      "LogicalSize": "550, 450",
+      "Issues": []
+    },
+    {
+      "Case": "expand-log",
+      "Before": 317,
+      "After": 402,
+      "Issues": []
+    },
+    {
+      "Case": "apple-720x720",
+      "Issues": []
+    },
+    {
+      "Case": "apple-580x560",
+      "Issues": []
+    },
+    {
+      "Case": "apple-480x480",
+      "Issues": []
+    },
+    {
+      "Case": "browse-layout-760x600",
+      "Issues": []
+    },
+    {
+      "Case": "browse-layout-520x480",
+      "Issues": []
+    },
+    {
+      "Case": "browse-layout-440x440",
+      "Issues": []
+    },
+    {
+      "Case": "browse-change-path-and-recover-errors",
+      "Issues": []
+    },
+    {
+      "Case": "browse-cancel-reopen-three-times",
+      "Issues": []
+    },
+    {
+      "Case": "xip-file-layout-760x600",
+      "Issues": []
+    },
+    {
+      "Case": "xip-file-layout-520x480",
+      "Issues": []
+    },
+    {
+      "Case": "xip-file-layout-440x440",
+      "Issues": []
+    },
+    {
+      "Case": "apple-xip-managed-picker",
+      "Issues": []
+    }
+  ]
+}

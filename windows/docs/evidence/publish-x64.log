@@ -1,0 +1,6 @@
+  Determining projects to restore...
+  Restored /workspace/scratch/010afd202e14/NXNativeWindows-Easy-Installer/src/NXInstaller.Core/NXInstaller.Core.csproj (in 344 ms).
+  Restored /workspace/scratch/010afd202e14/NXNativeWindows-Easy-Installer/src/NXInstaller.App/NXInstaller.App.csproj (in 1.14 sec).
+  NXInstaller.Core -> /workspace/scratch/010afd202e14/NXNativeWindows-Easy-Installer/src/NXInstaller.Core/bin/Release/net10.0/NXInstaller.Core.dll
+  NXInstaller.App -> /workspace/scratch/010afd202e14/NXNativeWindows-Easy-Installer/src/NXInstaller.App/bin/Release/net10.0/win-x64/NXNativeWindowsEasyInstaller.dll
+  NXInstaller.App -> /workspace/scratch/010afd202e14/NXNativeWindows-Easy-Installer/artifacts/v2.0.2-publish-win-x64/
