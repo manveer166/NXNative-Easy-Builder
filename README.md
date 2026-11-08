@@ -8,13 +8,14 @@ Click **Install Everything** to check GitHub for updates and set up the required
 
 Created by **iSolution**. Based on [**NXNative**][nxnative] by **seedds** and [**NXNativeWindows**][nxnativewindows] by **zenvyzenshiro**.
 
-[iSolution on YouTube][isolution]
+<center>[iSolution on YouTube][isolution]</center>
 
 ## Downloads
-
+<center>
 [![Download for Windows x64](https://img.shields.io/badge/Windows%20x64-Download-0078D4?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI2ZmZiIgZD0iTTIgMmg5djlIMnpNMTMgMmg5djloLTl6TTIgMTNoOXY5SDJ6TTEzIDEzaDl2OWgtOXoiLz48L3N2Zz4%3D&logoColor=white)](https://applejr.ipadownloads.com/signed/NXNativeWindowsEasyInstaller-v2.0.2-win-x64.exe.zip)
 [![Download for Windows ARM64](https://img.shields.io/badge/Windows%20ARM64-Download-6053BA?style=for-the-badge&logo=arm&logoColor=white)](https://applejr.ipadownloads.com/signed/NXNativeWindowsEasyInstaller-v2.0.2-win-arm64.exe.zip)
 [![Download for macOS Apple Silicon](https://img.shields.io/badge/macOS%20Apple%20Silicon-Download-343A48?style=for-the-badge&logo=apple&logoColor=white)](https://applejr.ipadownloads.com/signed/NXNativeEasyBuilder-Mac-arm64%202.zip)
+</center>
 
 
 <!-- YouTube Full Tutorial Button -->
