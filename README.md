@@ -16,6 +16,31 @@ Created by **iSolution**. Based on [**NXNative**][nxnative] by **seedds** and [*
 [![Download for Windows ARM64](https://img.shields.io/badge/Windows%20ARM64-Download-6053BA?style=for-the-badge&logo=arm&logoColor=white)](https://applejr.ipadownloads.com/signed/NXNativeWindowsEasyInstaller-v2.0.2-win-arm64.exe.zip)
 [![Download for macOS Apple Silicon](https://img.shields.io/badge/macOS%20Apple%20Silicon-Download-343A48?style=for-the-badge&logo=apple&logoColor=white)](https://applejr.ipadownloads.com/signed/NXNativeEasyBuilder-Mac-arm64%202.zip)
 
+
+<!-- YouTube Full Tutorial Button -->
+<div align="center">
+
+  <h2>🎬 Full Installation & Setup Tutorial</h2>
+
+  <p>
+    Watch the complete step-by-step guide to port Nintendo Switch games to iOS and iPadOS using NXNative Easy Builder!
+  </p>
+
+  <a href="https://youtu.be/Ok-pZ0qQaKk" target="_blank">
+    <img
+      src="https://img.shields.io/badge/FULL%20TUTORIAL%20YOUTUBE-WATCH%20NOW-FF0033?style=for-the-badge&logo=youtube&logoColor=white&labelColor=161B22"
+      alt="Watch Full YouTube Tutorial"
+      height="48"
+    />
+  </a>
+
+  <p>
+    <sub>🎮 From Windows setup to building and installing iOS IPA files.</sub>
+  </p>
+
+</div>
+
+
 ## Successfully ported to IPA
 
 These titles reached gameplay on an iPhone or iPad in upstream tests.
